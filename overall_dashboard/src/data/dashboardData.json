@@ -1,0 +1,110 @@
+{
+  "overallOutstanding": {
+    "amount": 12341233
+  },
+  "metrics": [
+    {
+      "id": "invoice-received",
+      "title": "Invoice Received",
+      "total": 2123,
+      "amount": 12341233234,
+      "icon": "document",
+      "color": "blue"
+    },
+    {
+      "id": "payable-amount",
+      "title": "Payable amount",
+      "total": 2123,
+      "amount": 12341233,
+      "icon": "hand-money",
+      "color": "orange"
+    },
+    {
+      "id": "overdue",
+      "title": "Overdue",
+      "total": 2123,
+      "amount": 12341233,
+      "icon": "clock",
+      "color": "red"
+    },
+    {
+      "id": "paid-amount",
+      "title": "Paid amount",
+      "total": 2123,
+      "amount": 12341233,
+      "icon": "check-money",
+      "color": "green"
+    },
+    {
+      "id": "rejected",
+      "title": "Rejected",
+      "total": 2123,
+      "amount": 12341233234,
+      "icon": "cross",
+      "color": "red"
+    },
+    {
+      "id": "dispute",
+      "title": "Dispute",
+      "total": 2123,
+      "amount": 12341233,
+      "icon": "exclamation-speech",
+      "color": "purple"
+    },
+    {
+      "id": "department",
+      "title": "Department",
+      "total": 2123,
+      "amount": 12341233,
+      "icon": "building",
+      "color": "blue"
+    },
+    {
+      "id": "vendors",
+      "title": "Vendors",
+      "total": 2123,
+      "amount": 12341233,
+      "icon": "people",
+      "color": "blue"
+    }
+  ],
+  "charts": {
+    "queues": {
+      "title": "Queues",
+      "centerValue": "54%",
+      "segments": [
+        { "label": "Processing Queue", "value": 10, "color": "red" },
+        { "label": "Exception Queue", "value": 54, "color": "teal" },
+        { "label": "Duplicate Queue", "value": 10, "color": "dark-blue" },
+        { "label": "Missing PO Queue", "value": 10, "color": "light-orange" },
+        { "label": "Receipt Hold Queue", "value": 10, "color": "orange" },
+        { "label": "Supplier Portal Queue", "value": 6, "color": "dark-red" }
+      ]
+    },
+    "kpi": {
+      "title": "KPI",
+      "segments": [
+        { "label": "Role", "value": 30, "color": "light-orange" },
+        { "label": "Person Responsible", "value": 54, "color": "teal" },
+        { "label": "Triggers Alert", "value": 26, "color": "dark-blue" }
+      ]
+    }
+  },
+  "dueByAge": {
+    "title": "Due by Age Summery",
+    "subtitle": "Payment due days wise",
+    "periods": [
+      { "days": "7 Days", "amount": 1234234 },
+      { "days": "15 Days", "amount": 287313123 },
+      { "days": "30 Days", "amount": 1301 },
+      { "days": "45 Days", "amount": 12234445 },
+      { "days": "60 Days", "amount": 1200 },
+      { "days": "90 Days", "amount": 1237234 },
+      { "days": "180 Days +", "amount": 122 }
+    ]
+  },
+  "penaltySaved": {
+    "title": "Penalty Saved amount",
+    "amount": 12344
+  }
+}
