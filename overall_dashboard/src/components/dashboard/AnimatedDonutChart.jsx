@@ -72,7 +72,7 @@ const AnimatedDonutChart = ({ data, title = false }) => {
             <div key={index} className="flex items-center space-x-2 sm:space-x-3">
               <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full flex-shrink-0" style={{ backgroundColor: item.fill }}></div>
               <span className="text-xs sm:text-sm truncate queues-title-clr fs-14">{item.label}</span>
-              <span className="text-xs sm:text-sm font-medium text-gray-600 flex-shrink-0">{item.percentage}%</span>
+              {/* <span className="text-xs sm:text-sm font-medium text-gray-600 flex-shrink-0">{item.percentage}%</span> */}
             </div>
           ))}
         </div>
